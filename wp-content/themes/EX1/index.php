@@ -1,4 +1,12 @@
 <?php get_header();?>
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>about us</li>
+        <li>experience</li>
+        <li>contact</li>
+    </ul>
+</nav>
 <main>
     <h3>exercice1</h3>
     <h2>this is the first page of my try</h2>
