@@ -8,5 +8,8 @@
     <title>Ex1</title>
     <?php wp_head();?>
 </head>
-<header>safoora mansouri - e2296145</header>
+<header>
+    <img src="http://localhost/31w/wp-content/uploads/2023/02/safoora.png" alt="">
+    <h1> safoora mansouri - e2296145</h1>
+</header>
 <body>
