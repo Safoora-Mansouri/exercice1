@@ -41,3 +41,12 @@ footer{
   color: white;
 
 }
+nav{
+    height:80px;
+  background-color: rgb(201, 198, 107);
+  color: rgb(12, 11, 11);
+  display: flex;
+  flex-direction: row;
+
+
+}
