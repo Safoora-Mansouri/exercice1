@@ -1,17 +1,24 @@
+<?php get_header();?>
+<!-- <nav>
+    <ul>
+        <li>Home</li>
+        <li>about us</li>
+        <li>experience</li>
+        <li>contact</li>
+    </ul>
+</nav> -->
+<main>
+    <h3>exercice1</h3>
+    <h2>this is the first page of my try</h2>
 <?php
-/**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
- */
-
-/**
- * Tells WordPress to load the WordPress theme and output it.
- *
- * @var bool
- */
-define( 'WP_USE_THEMES', true );
-
-/** Loads the WordPress Environment and Template */
-require __DIR__ . '/wp-blog-header.php';
+if (have_posts()):
+     while (have_posts()) : the_post();
+         the_title('<h1>','<h1>');
+          the_content();
+        // the_excerpt();
+        echo wp_trim_words(get_the_excerpt(), 4);
+    endwhile;
+endif;
+?> 
+</main>
+<?php get_footer(); ?>
