@@ -87,15 +87,26 @@ p {
   padding: 20px;
   margin-left: auto;
 }
-.menu-entet-container .menu .menu-item {
+.menu-entete-container .menu .menu-item {
   flex: 1 0 70px;
   list-style: none;
 }
-.menu-entet-container .menu .menu-item a {
+.menu-entete-container .menu .menu-item a {
   text-decoration: none;
   padding: 3px 5px;
   color: white;
 }
-.menu-entet-container .menu .menu-item a:hover {
+.menu-entete-container .menu .menu-item a:hover {
   color: bisque;
+}
+body{
+  text-align: center;
+}
+footer{
+  background-color: goldenrod;
+  
+}
+img{
+  width:200px;
+  border-radius: 50%;
 }
