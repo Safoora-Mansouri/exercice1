@@ -79,7 +79,7 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.menu-entet-container .menu {
+.menu-entete-container .menu {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
