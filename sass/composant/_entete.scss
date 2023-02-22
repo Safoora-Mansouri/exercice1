@@ -2,7 +2,9 @@
 .logomenu{
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+
+  
 
  }
  .site__entete{
@@ -11,6 +13,11 @@
 
  }
 
+ img{
+    width:150px;
+    height: 150px;
+    
+ }
 
 
 
@@ -28,6 +35,7 @@
              //li
              flex: 1 0 70px;
              list-style: none;
+           
 
              a{
                 text-decoration: none;

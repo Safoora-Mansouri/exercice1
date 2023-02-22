@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-Theme Name: 31w safoora mansouri
+Theme Name: 31w safoora 
 Theme URI: https://github.com/Safoora-Mansouri
 Author: Safoora-Mansouri
 Author URI: https://eddytuto.ca
@@ -84,6 +84,11 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
 }
 
 .menu-entete-container {
