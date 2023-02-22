@@ -79,6 +79,16 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+/*--------------Composante------------------*/
+.logomenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-entete-container {
+  flex: 1;
+}
 .menu-entete-container .menu {
   display: flex;
   justify-content: flex-end;
@@ -99,14 +109,15 @@ p {
 .menu-entete-container .menu .menu-item a:hover {
   color: bisque;
 }
-body{
-  text-align: center;
+
+.blocflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-footer{
-  background-color: goldenrod;
-  
-}
-img{
-  width:200px;
-  border-radius: 50%;
+.blocflex article {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid gray;
+  flex: 1 0 300px;
 }
